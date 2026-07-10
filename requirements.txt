@@ -1,0 +1,11 @@
+pandas
+numpy
+matplotlib
+scipy
+seaborn
+statsmodels
+jupyter
+notebook
+pymc
+arviz
+plotly
