@@ -1,11 +1,13 @@
-" Date       "," Event                         "," Category         "," Region                     "," Expected_Impact "," Description                                                                              "
+Date,Event,Category,Region,Expected_Impact,Description
 " 1987-12-08 "," OPEC production agreement     "," OPEC             "," Global                     "," Increase        "," OPEC members agreed to production targets aimed at stabilizing oil prices.               "
 " 1990-08-02 "," Iraq invades Kuwait           "," Conflict         "," Middle East                "," Increase        "," Iraq's invasion of Kuwait disrupted oil supply and sharply increased oil prices.         "
 " 1991-01-17 "," Operation Desert Storm        "," Conflict         "," Middle East                "," Mixed           "," Coalition military operations created short-term supply uncertainty.                     "
 " 1997-07-02 "," Asian Financial Crisis        "," Economic         "," Asia                       "," Decrease        "," Falling demand from Asian economies reduced global oil consumption.                      "
 " 1998-12-11 "," OPEC production cuts          "," OPEC             "," Global                     "," Increase        "," OPEC announced coordinated production cuts to stabilize declining oil prices.            "
 " 2001-09-11 "," September 11 attacks          "," Geopolitical     "," USA                        "," Decrease        "," Global uncertainty and reduced travel temporarily weakened oil demand.                   "
-" 2003-03-20 "," Iraq War begins               "," Conflict         "," Middle East                "," Increase        "," Concerns over supply disruptions increased market uncertainty.                           "
+"2003-03-20"," Iraq War begins               "," Conflict         "," Middle East                "," Increase        "," Concerns over supply disruptions increased market uncertainty.                           "
+2004-01-01,Rapid growth in Chinese oil demand,Economic,Global,High,Rapid industrialization in China significantly increased global crude oil demand and contributed to a sustained increase in oil prices.
+2004-09-15,OPEC production management amid rising demand,OPEC,OPEC,High,OPEC maintained production policies during a period of increasing global oil demand and contributing to a higher long-term oil price regime.
 " 2005-08-29 "," Hurricane Katrina             "," Natural Disaster "," USA                        "," Increase        "," Damage to Gulf Coast oil infrastructure disrupted production and refining.               "
 " 2008-09-15 "," Global Financial Crisis       "," Economic         "," Global                     "," Decrease        "," The collapse of Lehman Brothers triggered a sharp decline in global oil demand.          "
 " 2010-12-17 "," Arab Spring                   "," Political        "," Middle East & North Africa "," Increase        "," Political instability raised concerns about oil production across the region.            "
