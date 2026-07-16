@@ -1,49 +1,55 @@
 import {
-LineChart,
-Line,
-XAxis,
-YAxis,
-CartesianGrid,
-Tooltip,
-ResponsiveContainer,
-ReferenceLine
+  ResponsiveContainer,
+  LineChart,
+  Line,
+  CartesianGrid,
+  XAxis,
+  YAxis,
+  Tooltip,
+  ReferenceLine,
 } from "recharts";
 
-function PriceChart({prices,summary}){
+function PriceChart({ prices, summary, selectedEvent }) {
+  if (!prices.length) return <p>Loading chart...</p>;
 
-return(
+  return (
+    <ResponsiveContainer width="100%" height={500}>
+      <LineChart data={prices}>
+        <CartesianGrid strokeDasharray="3 3" />
 
-<ResponsiveContainer width="100%" height={500}>
+        <XAxis dataKey="Date" hide />
 
-<LineChart data={prices}>
+        <YAxis />
 
-<CartesianGrid strokeDasharray="3 3"/>
+        <Tooltip />
 
-<XAxis dataKey="Date" hide/>
+        <Line
+          type="monotone"
+          dataKey="Price"
+          stroke="#2563eb"
+          dot={false}
+        />
 
-<YAxis/>
+        {summary && (
+          <ReferenceLine
+            x={summary.change_point_date}
+            stroke="red"
+            strokeWidth={2}
+            label="Change Point"
+          />
+        )}
 
-<Tooltip/>
-
-<Line
-type="monotone"
-dataKey="Price"
-stroke="#2563eb"
-dot={false}
-/>
-
-<ReferenceLine
-x={summary?.change_point_date}
-stroke="red"
-label="Change Point"
-/>
-
-</LineChart>
-
-</ResponsiveContainer>
-
-);
-
+        {selectedEvent && (
+          <ReferenceLine
+            x={selectedEvent.Date}
+            stroke="green"
+            strokeWidth={2}
+            label={selectedEvent.Event}
+          />
+        )}
+      </LineChart>
+    </ResponsiveContainer>
+  );
 }
 
 export default PriceChart;
