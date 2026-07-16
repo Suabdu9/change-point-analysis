@@ -1,0 +1,23 @@
+Date,Event,Category,Region,Expected_Impact,Description,Days_Difference
+1987-12-08, OPEC production agreement     , OPEC             , Global                     , Increase        , OPEC members agreed to production targets aimed at stabilizing oil prices.               ,6288
+1990-08-02, Iraq invades Kuwait           , Conflict         , Middle East                , Increase        , Iraq's invasion of Kuwait disrupted oil supply and sharply increased oil prices.         ,5320
+1991-01-17, Operation Desert Storm        , Conflict         , Middle East                , Mixed           , Coalition military operations created short-term supply uncertainty.                     ,5152
+1997-07-02, Asian Financial Crisis        , Economic         , Asia                       , Decrease        , Falling demand from Asian economies reduced global oil consumption.                      ,2794
+1998-12-11, OPEC production cuts          , OPEC             , Global                     , Increase        , OPEC announced coordinated production cuts to stabilize declining oil prices.            ,2267
+2001-09-11, September 11 attacks          , Geopolitical     , USA                        , Decrease        , Global uncertainty and reduced travel temporarily weakened oil demand.                   ,1262
+2003-03-20, Iraq War begins               , Conflict         , Middle East                , Increase        , Concerns over supply disruptions increased market uncertainty.                           ,707
+2004-01-01,Rapid growth in Chinese oil demand,Economic,Global,High,Rapid industrialization in China significantly increased global crude oil demand and contributed to a sustained increase in oil prices.,420
+2004-09-15,OPEC production management amid rising demand,OPEC,OPEC,High,OPEC maintained production policies during a period of increasing global oil demand and contributing to a higher long-term oil price regime.,162
+2005-08-29, Hurricane Katrina             , Natural Disaster , USA                        , Increase        , Damage to Gulf Coast oil infrastructure disrupted production and refining.               ,186
+2008-09-15, Global Financial Crisis       , Economic         , Global                     , Decrease        , The collapse of Lehman Brothers triggered a sharp decline in global oil demand.          ,1299
+2010-12-17, Arab Spring                   , Political        , Middle East & North Africa , Increase        , Political instability raised concerns about oil production across the region.            ,2122
+2011-02-15, Libyan Civil War              , Conflict         , North Africa               , Increase        , Libya's oil exports were significantly disrupted during the conflict.                    ,2182
+2014-11-27, OPEC maintains production     , OPEC             , Global                     , Decrease        ," OPEC decided not to reduce production despite falling prices, leading to oversupply.     ",3563
+2015-07-14, Iran Nuclear Agreement        , Political        , Middle East                , Decrease        , Expectations of increased Iranian oil exports placed downward pressure on prices.        ,3792
+2016-11-30, OPEC production cut agreement , OPEC             , Global                     , Increase        , OPEC and partner countries agreed to coordinated production cuts.                        ,4297
+2018-05-08, U.S. sanctions on Iran        , Sanctions        , Middle East                , Increase        , Sanctions reduced Iranian oil exports and tightened global supply.                       ,4821
+2019-09-14, Saudi Aramco attacks          , Conflict         , Middle East                , Increase        , Drone attacks temporarily disrupted approximately half of Saudi Arabia's oil production. ,5315
+2020-03-06, Saudi-Russia oil price war    , OPEC             , Global                     , Decrease        , Failure to agree on production cuts triggered a price war and sharp price decline.       ,5489
+2020-03-11, COVID-19 pandemic declared    , Health           , Global                     , Decrease        , Global lockdowns drastically reduced transportation and fuel demand.                     ,5494
+2021-07-18, OPEC+ production agreement    , OPEC             , Global                     , Mixed           , OPEC+ agreed on gradual production increases as demand recovered.                        ,5988
+2022-02-24, Russia invades Ukraine        , Conflict         , Europe                     , Increase        , The invasion created major supply concerns and pushed Brent crude prices sharply higher. ,6209

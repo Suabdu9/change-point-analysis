@@ -1,53 +1,33 @@
-function EventTable({events}){
+function EventTable({ events, onSelectEvent }) {
+  if (!events.length) return <p>Loading events...</p>;
 
-return(
+  return (
+    <table>
+      <thead>
+        <tr>
+          <th>Date</th>
+          <th>Event</th>
+          <th>Category</th>
+          <th>Region</th>
+        </tr>
+      </thead>
 
-<table>
-
-<thead>
-
-<tr>
-
-<th>Date</th>
-
-<th>Event</th>
-
-<th>Category</th>
-
-<th>Region</th>
-
-</tr>
-
-</thead>
-
-<tbody>
-
-{
-
-events.map((e,i)=>(
-
-<tr key={i}>
-
-<td>{e.Date}</td>
-
-<td>{e.Event}</td>
-
-<td>{e.Category}</td>
-
-<td>{e.Region}</td>
-
-</tr>
-
-))
-
-}
-
-</tbody>
-
-</table>
-
-);
-
+      <tbody>
+        {events.map((event, index) => (
+          <tr
+            key={index}
+            onClick={() => onSelectEvent(event)}
+            style={{ cursor: "pointer" }}
+          >
+            <td>{event.Date}</td>
+            <td>{event.Event}</td>
+            <td>{event.Category}</td>
+            <td>{event.Region}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  );
 }
 
 export default EventTable;
