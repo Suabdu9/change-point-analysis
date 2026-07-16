@@ -78,6 +78,89 @@ Dashboard Features
 
 ---
 
+# Dashboard Walkthrough
+
+The React dashboard provides an interactive interface for exploring Brent crude oil prices, Bayesian change point analysis results, and major geopolitical events.
+
+## Dashboard Features
+
+### 1. Historical Price Chart
+
+- Displays the complete Brent crude oil price time series.
+- A **red vertical line** indicates the Bayesian estimated change point.
+- Selecting an event highlights it on the chart using a **green reference line**.
+
+**Screenshot:** `reports/screenshots/dashboard_overview.png`
+
+---
+
+### 2. Summary Cards
+
+The dashboard presents key analysis results including:
+
+- Estimated Change Point Date
+- Mean Price Before Change
+- Mean Price After Change
+- Percentage Price Change
+- Total Historical Events
+- Number of Price Observations
+
+**Screenshot:** `reports/screenshots/summary_cards.png`
+
+---
+
+### 3. Date Range Filter
+
+Users can interactively filter the historical price series by selecting:
+
+- Start Date
+- End Date
+
+Selecting a date range immediately updates the visualization.
+
+The **Reset Filters** button restores the complete dataset.
+
+---
+
+### 4. Event Selection
+
+The event table contains major geopolitical and economic events collected during Task 1.
+
+Clicking any event:
+
+- Highlights the selected event on the price chart.
+- Allows users to visually compare the event with the Bayesian change point.
+
+---
+
+### 5. Change Point Highlighting
+
+The dashboard visualizes the estimated Bayesian structural break using a red reference line.
+
+This allows users to compare:
+
+- Historical prices
+- Bayesian detected regime change
+- Major geopolitical events
+
+in a single interactive visualization.
+
+**Screenshot:** `reports/screenshots/change_point.png`
+
+---
+
+# Typical User Workflow
+
+1. Open the dashboard in the browser.
+2. Review the summary cards for key Bayesian model outputs.
+3. Explore the historical Brent oil price chart.
+4. Use the date range filter to focus on a specific period.
+5. Click an event in the event table.
+6. Observe how the selected event aligns with the Bayesian change point.
+7. Compare historical market behavior before and after the detected structural break.
+
+This workflow enables investors, analysts, policymakers, and energy companies to explore how significant geopolitical and economic events relate to structural changes in Brent crude oil prices.
+
 # Technologies
 
 Python
